@@ -6,7 +6,7 @@ Bem-vindo ao meu portfólio! Este projeto tem como objetivo apresentar um pouco 
 
 ## 🧑 Sobre mim
 
-Olá! Sou um(a) desenvolvedor web, sempre buscando aprender e evoluir. Este portfólio foi criado como parte do meu processo de aprendizado e para demonstrar meus conhecimentos em HTML, CSS, JavaScript e outras tecnologias atuais.
+Olá! Meu nome é Ruan Ghidini desenvolvedor web, tenho 20 anos e estou sempre buscando evoluir. Este portfólio foi criado como parte do meu processo de aprendizado e para demonstrar meus conhecimentos em HTML, CSS, JavaScript e outras tecnologias atuais.
 
 ## 🚀 Tecnologias Utilizadas
 
