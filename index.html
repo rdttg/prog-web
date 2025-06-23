@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Pessoal - Ruan</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script>
+    emailjs.init("mC93hD9f9Ga9CTPDx");
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <header class="bg-gray-100 dark:bg-gray-800 shadow-md p-4 sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Ruan</h1>
+      <ul class="flex gap-4">
+        <li><a href="#inicio" class="hover:underline">Início</a></li>
+        <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+        <li><a href="#projetos" class="hover:underline">Projetos</a></li>
+        <li><a href="#experiencia" class="hover:underline">Experiência</a></li>
+        <li><a href="#contato" class="hover:underline">Contato</a></li>
+      </ul>
+      <button id="botao-tema" class="ml-4 bg-gray-300 dark:bg-gray-600 text-black dark:text-white px-4 py-2 rounded">
+        Tema
+      </button>
+    </nav>
+  </header>
+
+  <section id="inicio" class="py-16 text-center">
+    <h2 class="text-3xl font-bold mb-2">Bem-vindo ao meu portfólio!</h2>
+    <p class="text-lg mb-4">Ruan, desenvolvedor Java.</p>
+    <img src="img/avatar.png" alt="Avatar" class="mx-auto w-32 h-32 rounded-full" />
+    <a href="docs/curriculo.pdf" download class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded">Download
+      Currículo</a>
+  </section>
+
+  <section id="sobre" class="py-16 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Sobre Mim</h2>
+      <p>Desenvolvedor web fullstack, Java, JPA, JSF e Spring Boot</p>
+    </div>
+  </section>
+
+  <section id="projetos" class="py-16">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold text-center mb-8">Projetos</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-4 border rounded shadow hover:shadow-lg transition">
+          <h3 class="font-semibold">Projeto 1</h3>
+          <p>Projeto academia em PHP <a href="https://github.com/rdttg/academia2.git"
+              class="text-blue-500 underline">Ver mais</a></p>
+        </div>
+        <div class="p-4 border rounded shadow hover:shadow-lg transition">
+          <h3 class="font-semibold">Projeto 2</h3>
+          <p>E-commerce, desenvolvido no atual trabalho <a href="https://loja.bonasoldi.com.br:8481/sys162/index"
+              class="text-blue-500 underline">Ver mais</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencias" class="py-16 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-center mb-8">Experiência</h2>
+      <ul class="space-y-4">
+        <li class="border-l-4 border-blue-500 pl-4">
+          <h3 class="font-semibold">Estágio</h3>
+          <p>Outubro/2023 - Agosto/2024 | Estágio em T.I na Comil Ônibus S.A</p>
+        </li>
+        <li class="border-l-4 border-blue-500 pl-4">
+          <h3 class="font-semibold">Desenvolvedor - System Sistemas de Gestão</h3>
+          <p>Agosto/2025 - Atual | Desenvolvimento de sistemas com JSF, JPA, Java e PrimeFaces.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato" class="py-16">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Contato</h2>
+      <form class="space-y-4" id="formularioContato">
+        <input type="text" name="nome" placeholder="Nome" class="w-full p-2 rounded border" required />
+        <input type="email" name="email" placeholder="Email" class="w-full p-2 rounded border" required />
+        <textarea name="mensagem" placeholder="Mensagem" class="w-full p-2 rounded border" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Enviar</button>
+      </form>
+      <div class="mt-6 space-x-4">
+        <a href="mailto:ruandelaz10@gmail.com" class="underline">ruandelaz10@gmail.com</a>
+        <a href="https://github.com/rdttg" class="underline">GitHub</a>
+        <a href="https://www.linkedin.com/in/ruan-delazari-ghidini-16b07029a" class="underline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center p-4 bg-gray-100 dark:bg-gray-800">
+    <p>&copy; 2025 Ruan Ghidini. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/javascript.js"></script>
+</body>
+
+</html>
